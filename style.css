@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    min-height: 8vh;
+    background-color: #5d4954;
+}
+
+nav:hover{
+    background-color: #3a3138c9;
+}
+
+
+.navbar-nav a:hover{
+    padding-bottom: 0;
+    border-bottom: solid 2px#fcfcfcc9;
+}
+
+.d-flex{
+    width: 100%;
+}
+
+.titulo, .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h3{
+    font-size: 2.5rem;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.col{
+    width: 300px;
+}
+
+
+.desconto{
+    border: solid 1px #d14e03;
+    width: 50px;
+    text-align: center;
+    color: #d14e03;
+    border-radius: 5px;
+}
+
+.titulo-desconto{
+    display: flex;
+    gap: 10px;
+}
+
+.preco{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.preco-carrinho{
+  
+    
+}
+
+.card-footer{
+  background-color: #f311014b;
+}
+
+.card-promo:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+    border: solid 1px #533345;
+
+}
