@@ -26,10 +26,43 @@ nav:hover{
     color: #ffffff;
 }
 
-.d-flex{
-    width: 100%;
+.carrinho-com-itens{
+    color: #ffffff;
+    border-radius: 5px;
+    height: 60px;
+   
 }
 
+.carrinho-com-itens p{
+    background-color: #f10303;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    top: 4px;
+    left: 55px;
+
+}
+
+.buscar{
+   
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+
+.itens-nav{
+    width: 100%;
+    align-items: center;
+}
+
+
+
+/* categorias */
 .titulo, .row{
     width: 100%;
     display: flex;
@@ -45,7 +78,7 @@ nav:hover{
 }
 
 .col{
-    width: 300px;
+    /* width: 300px; */
 }
 
 
