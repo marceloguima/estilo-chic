@@ -20,6 +20,12 @@ nav:hover{
     border-bottom: solid 2px#fcfcfcc9;
 }
 
+.btn-carrinho-itens{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+}
+
 .d-flex{
     width: 100%;
 }
@@ -57,7 +63,7 @@ nav:hover{
 }
 
 .preco{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -76,3 +82,14 @@ nav:hover{
     border: solid 1px #533345;
 
 }
+
+.btn-carrinho{
+    
+    border: none;
+  /* border-radius: 5px; */
+  margin-bottom: 3px;
+  background-color: #f311014b;
+  box-shadow: 1px 2px 2px;
+   
+}
+

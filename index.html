@@ -23,12 +23,13 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <div class="d-flex">
+                <div class=" itens-nav  d-flex justify-content-between">
                     <a class="navbar-brand text-white fs-2" href="#"
                         >Stylo chic</a
                     >
+                    <input type="text" placeholder="Buscar" />
                     <button
-                        class="navbar-toggler"
+                        class="navbar-toggler "
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup"
@@ -43,6 +44,7 @@
                         id="navbarNavAltMarkup"
                     >
                         <div class="navbar-nav d-flex justify-content-evenly">
+                       
                             <a
                                 class="nav-link text-white fs-4"
                                 aria-current="page"
@@ -60,9 +62,12 @@
                             >
                         </div>
                     </div>
+                    <button class="btn-carrinho-itens">
+                        <i class="bi bi-cart-plus fs-1 p-2" ></i>
+                    </button>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
         <div class="card text-bg-dark">
             <img
                 src="./images/mulher-blusa-jeans-azul.jpg"
@@ -113,7 +118,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Chapéu</h5>
                             <p class="card-text">
-                                Temos os mais lindos acessórios.
+                                Temos os mais lindos acessórios para você.
                             </p>
                             <a href="">Ver mais</a>
                         </div>
@@ -144,7 +149,7 @@
                         />
                         <div class="card-body">
                             <h5 class="card-title">óculos</h5>
-                            <p class="card-text">Lindos modelos de óculos</p>
+                            <p class="card-text">Lindos modelos de óculos.</p>
                             <a href="">Ver mais</a>
                         </div>
                     </div>
@@ -190,7 +195,7 @@
                             alt="..."
                         />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Bolsas</h5>
                             <p class="card-text">
                                 This is a longer card withl content.
                             </p>
@@ -237,7 +242,9 @@
                                 class="preco-carrinho d-flex justify-content-between fs-2"
                             >
                                 <h5 class="preco">R$59,90</h5>
-                                <i class="bi bi-cart-plus"></i>
+                                <button class="btn-carrinho">
+                                    <i class="bi bi-cart-plus fs-4 p-2" ></i>
+                                </button>
                             </div>
                             <p class="card-text">Promoção por tempo limitado</p>
                         </div>
