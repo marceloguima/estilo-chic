@@ -14,13 +14,13 @@ body {
 
 nav {
     height: 8vh;
-    background-color: #5d4954;
-    position: relative;
+    background-color: #000;
 }
 
-nav:hover {
-    background-color: #3a3138c9;
+.collapse{
+    background-color: #000;
 }
+
 
 .navbar-nav a:hover {
     padding-bottom: 0;
@@ -60,6 +60,9 @@ nav:hover {
 .itens-nav {
     width: 100%;
     align-items: center;
+    background-color: #000;
+    height: 5vh;
+    margin: 0;
 }
 
 /* carrosesel */
@@ -122,4 +125,44 @@ nav:hover {
     margin-bottom: 3px;
     background-color: #f311014b;
     box-shadow: 1px 2px 2px;
+}
+
+
+.quem-somos {
+    border: solid 1px #ffffff;
+    width: 15%;
+
+}
+
+li{
+    list-style: none;
+
+}
+
+li a{
+    color: #ffffff;
+}
+
+.formulario{
+    width: 40%;
+   
+}
+
+.input-footer{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button-footer{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 60%;
+}
+
+.input-footer {
+    border-radius: 0.375rem;
 }
