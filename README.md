@@ -1,5 +1,5 @@
 Stilo Chic - E-commerce de Moda
-**Link do Projeto Hospedado:** [stilo-chic - Veja o site](https://stylo-top.netlify.app) 🔗
+
 
 Descrição do Projeto
 Este projeto consiste em um e-commerce de moda com foco em estilo e design moderno, desenvolvido utilizando HTML5, CSS3 e Bootstrap 5. O objetivo principal é demonstrar e aprimorar minhas habilidades em front-end, criando uma loja virtual responsiva e com uma experiência de usuário atraente. Importante: Este projeto está em desenvolvimento e ainda não possui funcionalidades implementadas com JavaScript.
@@ -23,3 +23,5 @@ Banner Rolante: Exibe informações promocionais de forma dinâmica (implementa�
 Categorias de Produtos:
 
 Autor: Marcelo Guimarães Dos Santos
+
+**Link do Projeto Hospedado:** [stilo-chic - Veja o site](https://stylo-top.netlify.app) 🔗
